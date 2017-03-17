@@ -1,6 +1,3 @@
-<html>
-
-<script type="text/javascript">
 function MaiorEMenor() {
 
     var menor;
@@ -26,12 +23,3 @@ function MaiorEMenor() {
 
 
 }
-
-var algoritmo = new MaiorEMenor();
-algoritmo.encontra([7,6,5,4]);
-
-console.log(algoritmo.pegaMaior() == 7);
-console.log(algoritmo.pegaMenor() == 4);
-</script>
-
-</html>
