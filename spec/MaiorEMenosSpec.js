@@ -26,4 +26,13 @@ describe("MaiorEMenor", function() {
         expect(algoritmo.pegaMenor()).toEqual(5);
 
     });
+   
+        it("deve entender array com um numero", function() {
+        var algoritmo = new MaiorEMenor();
+        algoritmo.encontra([8]);
+
+        expect(algoritmo.pegaMaior()).toEqual(8);
+        expect(algoritmo.pegaMenor()).toEqual(8);
+
+    });
 });
